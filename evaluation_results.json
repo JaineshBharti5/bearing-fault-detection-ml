@@ -1,0 +1,51 @@
+{
+  "cv_f1_mean": 0.9843667409837792,
+  "cv_f1_std": 0.0073727398382678255,
+  "test_accuracy": 0.9833333333333333,
+  "test_f1_macro": 0.9833287024173382,
+  "test_f1_weighted": 0.9833287024173383,
+  "confusion_matrix": [
+    [
+      60,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      60,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      57,
+      3
+    ],
+    [
+      0,
+      0,
+      1,
+      59
+    ]
+  ],
+  "classification_report": "                  precision    recall  f1-score   support\n\n          Normal       1.00      1.00      1.00        60\nInner Race Fault       1.00      1.00      1.00        60\nOuter Race Fault       0.98      0.95      0.97        60\n      Ball Fault       0.95      0.98      0.97        60\n\n        accuracy                           0.98       240\n       macro avg       0.98      0.98      0.98       240\n    weighted avg       0.98      0.98      0.98       240\n",
+  "feature_importances": {
+    "fft_peak3_mag": 0.10538217856185783,
+    "fft_peak4_mag": 0.08122962694096923,
+    "band_power_bpfo": 0.07766524947532108,
+    "band_power_bpfi": 0.06926692968840797,
+    "rms": 0.06798581771988918,
+    "band_power_resonance": 0.0668573896013177,
+    "variance": 0.06134036235828523,
+    "fft_peak5_mag": 0.059423574307513986,
+    "fft_peak2_mag": 0.05934374032137667,
+    "band_power_bsf": 0.05873723904126438,
+    "band_power_shaft": 0.055869586559613695,
+    "fft_peak1_mag": 0.04724828828926046,
+    "spectral_centroid": 0.040340960990310856,
+    "mean_abs": 0.039924144362259835,
+    "kurtosis": 0.022815860603860653
+  }
+}

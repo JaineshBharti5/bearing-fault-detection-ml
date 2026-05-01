@@ -1,0 +1,657 @@
+{
+  "metadata": {
+    "tflite_kb": 18.2,
+    "mean_latency_ms": 0.057,
+    "overall_accuracy": 0.975
+  },
+  "scenarios": {
+    "Healthy Motor": [
+      {
+        "window": 1,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.103,
+        "correct": true
+      },
+      {
+        "window": 2,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.052,
+        "correct": true
+      },
+      {
+        "window": 3,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.049,
+        "correct": true
+      },
+      {
+        "window": 4,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.091,
+        "correct": true
+      },
+      {
+        "window": 5,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.049,
+        "correct": true
+      },
+      {
+        "window": 6,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.053,
+        "correct": true
+      },
+      {
+        "window": 7,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.064,
+        "correct": true
+      },
+      {
+        "window": 8,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.079,
+        "correct": true
+      },
+      {
+        "window": 9,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.051,
+        "correct": true
+      },
+      {
+        "window": 10,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.048,
+        "correct": true
+      },
+      {
+        "window": 11,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.058,
+        "correct": true
+      },
+      {
+        "window": 12,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.075,
+        "correct": true
+      },
+      {
+        "window": 13,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.051,
+        "correct": true
+      },
+      {
+        "window": 14,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.052,
+        "correct": true
+      },
+      {
+        "window": 15,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.092,
+        "correct": true
+      },
+      {
+        "window": 16,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.056,
+        "correct": true
+      },
+      {
+        "window": 17,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.05,
+        "correct": true
+      },
+      {
+        "window": 18,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.053,
+        "correct": true
+      },
+      {
+        "window": 19,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.05,
+        "correct": true
+      },
+      {
+        "window": 20,
+        "true": "Normal",
+        "predicted": "Normal",
+        "confidence": 1.0,
+        "latency_ms": 0.053,
+        "correct": true
+      }
+    ],
+    "Inner Race Defect": [
+      {
+        "window": 1,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.046,
+        "correct": true
+      },
+      {
+        "window": 2,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.053,
+        "correct": true
+      },
+      {
+        "window": 3,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.054,
+        "correct": true
+      },
+      {
+        "window": 4,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.054,
+        "correct": true
+      },
+      {
+        "window": 5,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.059,
+        "correct": true
+      },
+      {
+        "window": 6,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.059,
+        "correct": true
+      },
+      {
+        "window": 7,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.058,
+        "correct": true
+      },
+      {
+        "window": 8,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.089,
+        "correct": true
+      },
+      {
+        "window": 9,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.055,
+        "correct": true
+      },
+      {
+        "window": 10,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.058,
+        "correct": true
+      },
+      {
+        "window": 11,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.083,
+        "correct": true
+      },
+      {
+        "window": 12,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.053,
+        "correct": true
+      },
+      {
+        "window": 13,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.054,
+        "correct": true
+      },
+      {
+        "window": 14,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.06,
+        "correct": true
+      },
+      {
+        "window": 15,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 0.995,
+        "latency_ms": 0.055,
+        "correct": true
+      },
+      {
+        "window": 16,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.06,
+        "correct": true
+      },
+      {
+        "window": 17,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.064,
+        "correct": true
+      },
+      {
+        "window": 18,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.051,
+        "correct": true
+      },
+      {
+        "window": 19,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.058,
+        "correct": true
+      },
+      {
+        "window": 20,
+        "true": "Inner Race Fault",
+        "predicted": "Inner Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.05,
+        "correct": true
+      }
+    ],
+    "Outer Race Defect": [
+      {
+        "window": 1,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.995,
+        "latency_ms": 0.064,
+        "correct": true
+      },
+      {
+        "window": 2,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.049,
+        "correct": true
+      },
+      {
+        "window": 3,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.054,
+        "correct": true
+      },
+      {
+        "window": 4,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.995,
+        "latency_ms": 0.049,
+        "correct": true
+      },
+      {
+        "window": 5,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.995,
+        "latency_ms": 0.053,
+        "correct": true
+      },
+      {
+        "window": 6,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.05,
+        "correct": true
+      },
+      {
+        "window": 7,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.054,
+        "correct": true
+      },
+      {
+        "window": 8,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.055,
+        "correct": true
+      },
+      {
+        "window": 9,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.95,
+        "latency_ms": 0.054,
+        "correct": true
+      },
+      {
+        "window": 10,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.052,
+        "correct": true
+      },
+      {
+        "window": 11,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.985,
+        "latency_ms": 0.051,
+        "correct": true
+      },
+      {
+        "window": 12,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.985,
+        "latency_ms": 0.051,
+        "correct": true
+      },
+      {
+        "window": 13,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.935,
+        "latency_ms": 0.049,
+        "correct": true
+      },
+      {
+        "window": 14,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.05,
+        "correct": true
+      },
+      {
+        "window": 15,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.95,
+        "latency_ms": 0.05,
+        "correct": true
+      },
+      {
+        "window": 16,
+        "true": "Outer Race Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.93,
+        "latency_ms": 0.05,
+        "correct": false
+      },
+      {
+        "window": 17,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.61,
+        "latency_ms": 0.05,
+        "correct": true
+      },
+      {
+        "window": 18,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.057,
+        "correct": true
+      },
+      {
+        "window": 19,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.049,
+        "correct": true
+      },
+      {
+        "window": 20,
+        "true": "Outer Race Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.99,
+        "latency_ms": 0.051,
+        "correct": true
+      }
+    ],
+    "Ball Fault": [
+      {
+        "window": 1,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.99,
+        "latency_ms": 0.051,
+        "correct": true
+      },
+      {
+        "window": 2,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.98,
+        "latency_ms": 0.056,
+        "correct": true
+      },
+      {
+        "window": 3,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.995,
+        "latency_ms": 0.049,
+        "correct": true
+      },
+      {
+        "window": 4,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.99,
+        "latency_ms": 0.06,
+        "correct": true
+      },
+      {
+        "window": 5,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.885,
+        "latency_ms": 0.056,
+        "correct": true
+      },
+      {
+        "window": 6,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.955,
+        "latency_ms": 0.062,
+        "correct": true
+      },
+      {
+        "window": 7,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.925,
+        "latency_ms": 0.051,
+        "correct": true
+      },
+      {
+        "window": 8,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.73,
+        "latency_ms": 0.053,
+        "correct": true
+      },
+      {
+        "window": 9,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.995,
+        "latency_ms": 0.052,
+        "correct": true
+      },
+      {
+        "window": 10,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.99,
+        "latency_ms": 0.048,
+        "correct": true
+      },
+      {
+        "window": 11,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.985,
+        "latency_ms": 0.057,
+        "correct": true
+      },
+      {
+        "window": 12,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.945,
+        "latency_ms": 0.053,
+        "correct": true
+      },
+      {
+        "window": 13,
+        "true": "Ball Fault",
+        "predicted": "Outer Race Fault",
+        "confidence": 0.58,
+        "latency_ms": 0.066,
+        "correct": false
+      },
+      {
+        "window": 14,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.985,
+        "latency_ms": 0.055,
+        "correct": true
+      },
+      {
+        "window": 15,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.91,
+        "latency_ms": 0.061,
+        "correct": true
+      },
+      {
+        "window": 16,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 1.0,
+        "latency_ms": 0.058,
+        "correct": true
+      },
+      {
+        "window": 17,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.94,
+        "latency_ms": 0.049,
+        "correct": true
+      },
+      {
+        "window": 18,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.98,
+        "latency_ms": 0.063,
+        "correct": true
+      },
+      {
+        "window": 19,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.965,
+        "latency_ms": 0.06,
+        "correct": true
+      },
+      {
+        "window": 20,
+        "true": "Ball Fault",
+        "predicted": "Ball Fault",
+        "confidence": 0.97,
+        "latency_ms": 0.08,
+        "correct": true
+      }
+    ]
+  }
+}
